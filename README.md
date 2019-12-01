@@ -74,3 +74,10 @@ NOTE: The conan recipe license applies only to the files of this recipe, which c
 It does *not* in any way apply or is related to the actual software being packaged.
 
 [MIT](LICENSE)
+
+## To do's
+
+- [x] Build and package stand-alone
+- [ ] Pick and place the right libraries
+- [ ] Create CMakeLists.txt for [darknet](ttps://pjreddie.com/darknet/) project
+- [ ] Build with [OpenCV](https://bintray.com/conan-community/conan/opencv%3Aconan/_latestVersion) conan package
