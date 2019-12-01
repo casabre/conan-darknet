@@ -55,10 +55,10 @@ $ conan create . conan/stable
 | Option | Default | Possible Values | Description                                       |
 | ------ | :------ | :-------------: | ------------------------------------------------- |
 | shared | False   |  [True, False]  | Build shared libraries only                       |
-| gpu    | True    |  [True, False]  | Compile with NVidai Cuda GPU support (Linux only) |
+| gpu    | False   |  [True, False]  | Compile with NVidai Cuda GPU support (Linux only) |
 | cudnn  | False   |  [True, False]  | Include NVidia Cuda Runtime support               |
-| opencv | True    |  [True, False]  | Build with OpenCV support                         |
-| openmp | True    |  [True, False]  | Build with OpenMP                                 |
+| opencv | False   |  [True, False]  | Build with OpenCV support                         |
+| openmp | False   |  [True, False]  | Build with OpenMP                                 |
 
 ## Add Remote
 
